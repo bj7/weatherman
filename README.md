@@ -1,8 +1,10 @@
-# Weatherman
+# Weatherman - Front-end 
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
+This README outlines the details of collaborating on this application.
+Currently, this application is only an Ember application, but the purpose of this
+weather app is to show the process and parts of building a full stack application
+from basic front-end, to backend with data store and APIs, to mobile that
+accesses those APIs.
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -50,4 +52,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
