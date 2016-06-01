@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-md-6">
+    <span>Hourly Forecast from Component</span>
+    <table class="table">
+      <thead>
+        <th>Midnight</th>
+        <th>1AM</th>
+        <th>2AM</th>
+        <th>3AM</th>
+        <th>4AM</th>
+        <th>5AM</th>
+        <th>6AM</th>
+        <th>7AM</th>
+        <th>8AM</th>
+        <th>9AM</th>
+        <th>10AM</th>
+        <th>11AM</th>
+        <th>Noon</th>
+        <th>1PM</th>
+        <th>2PM</th>
+        <th>3PM</th>
+        <th>4PM</th>
+        <th>5PM</th>
+        <th>6PM</th>
+        <th>7PM</th>
+        <th>8PM</th>
+        <th>9PM</th>
+        <th>10PM</th>
+        <th>11PM</th>
+      </thead>
+      <tbody>
+        <tr>
+          {{#each forecast as hour}}
+            {{hour.temp}}
+          {{/each}}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+{{yield}}

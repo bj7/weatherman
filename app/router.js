@@ -11,9 +11,9 @@ Router.map(function() {
 
 Router.map(function() {
   this.route('/');
-  this.route('today');
-  this.route('threeDay');
+  this.route('today', {path: '/today'});
+  this.route('threeDay', {path: '/threeDay'});
   this.route('week');
-})
+});
 
 export default Router;
